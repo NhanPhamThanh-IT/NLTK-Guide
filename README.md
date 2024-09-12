@@ -1,6 +1,15 @@
 <div align="justify">
 
 # <div align="center">NLTK-Guide</div>
-A comprehensive guide to using the Natural Language Toolkit (NLTK) for text analysis in Python. This repository includes tutorials, examples, and best practices for leveraging NLTK’s powerful features to analyze and process textual data.
+
+## Somethings must do for beginner
+
+```batch
+pip install ntlk
+```
+
+## References
+
+1. <a href="https://www.nltk.org/data.html#installing-nltk-data"><strong>Installing NLTK Data</strong></a>
 
 </div>
