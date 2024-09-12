@@ -15,15 +15,17 @@ __Natural Language Processing with Python__ provides a practical introduction to
 ## Somethings must do for beginner
 
 ```batch
-pip install ntlk
+pip install nltk
 ```
 
 Otherwise, if you can't use after install ntlk, you should view the following reference:
 
-<a href="https://www.nltk.org/install.html">Install NTLK</a>
+<a href="https://www.nltk.org/install.html">Install NLTK</a>
 
 ## References
 
 1. <a href="https://www.nltk.org/data.html#installing-nltk-data"><strong>Installing NLTK Data</strong></a>
+2. <a href="https://github.com/nltk/nltk"><strong>NLTK Source</strong></a>
+3. <a href="https://github.com/athityakumar/ntlk-examples"><strong>NLTK Examples</strong></a>
 
 </div>
