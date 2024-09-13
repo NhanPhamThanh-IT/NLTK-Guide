@@ -40,3 +40,15 @@ nltk.download('maxent_ne_chunker_tab')
 entities = nltk.chunk.ne_chunk(tagged)
 
 print(entities)
+
+# Display a parse tree
+
+from nltk.corpus import treebank
+t = treebank.parsed_sents('wsj_0001.mrg')[0]
+t.draw()
+
+'''
+NB. If you publish work that uses NLTK, please cite the NLTK book as follows:
+
+Bird, Steven, Edward Loper and Ewan Klein (2009), Natural Language Processing with Python. O’Reilly Media Inc.
+'''
