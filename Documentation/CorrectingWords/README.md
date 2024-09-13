@@ -16,15 +16,15 @@ Jaccard distance, the opposite of the Jaccard coefficient, is used to measure th
 
 __Step 1__: First, we install and import the nltk suite and Jaccard distance metric that we discussed before. ‘ngrams’ are used to get a set of co-occurring words in a given window and are imported from nltk.utils package.
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/Documentation/CorrectingWords/source1.py"><strong>Click here to view source code</strong></a>
 
 __Step 2__: Now, we download the ‘words’ resource (which contains the list of correct spellings of words) from the nltk downloader and import it through nltk.corpus and assign it to correct_words.
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/Documentation/CorrectingWords/source2.py"><strong>Click here to view source code</strong></a>
 
 __Step 3__: We define the list of incorrect_words for which we need the correct spellings. Then we run a loop for each word in the incorrect words list in which we calculate the Jaccard distance of the incorrect word with each correct spelling word having the same initial letter in the form of bigrams of characters. We then sort them in ascending order so the shortest distance is on top and extract the word corresponding to it and print it.
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/Documentation/CorrectingWords/source3.py"><strong>Click here to view source code</strong></a>
 
 ## Method 2: Using Edit distance Method
 
@@ -58,14 +58,14 @@ sing -> sign (transposition of ng to gn)
 
 __Step 1__: First of all, we install and import the nltk suite.
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/Documentation/CorrectingWords/source4.py"><strong>Click here to view source code</strong></a>
 
 __Step 2__: Now, we download the ‘words’ resource (which contains correct spellings of words) from the nltk downloader and import it through nltk.corpus and assign it to correct_words.
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/Documentation/CorrectingWords/source5.py"><strong>Click here to view source code</strong></a>
 
 __Step 3__: We define the list of incorrect_words for which we need the correct spellings. Then we run a loop for each word in the incorrect words list in which we calculate the Edit distance of the incorrect word with each correct spelling word having the same initial letter. We then sort them in ascending order so the shortest distance is on top and extract the word corresponding to it and print it.
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/Documentation/CorrectingWords/source6.py"><strong>Click here to view source code</strong></a>
 
 </div>
