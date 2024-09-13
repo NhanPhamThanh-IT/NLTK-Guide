@@ -11,10 +11,10 @@ __Example #1__
 
 In this example we are using MWETokenizer.tokenize() method, which used to bind the tokens which is defined before. We can also add the predefined tokens by using tokenizer.add_mwe() method.
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/Documentation/MultiwordExpression/example1.py"><strong>Click here to view source code</strong></a>
 
 __Example #2__
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/Documentation/MultiwordExpression/example2.py"><strong>Click here to view source code</strong></a>
 
 </div>
