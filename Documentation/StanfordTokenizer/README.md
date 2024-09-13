@@ -11,10 +11,10 @@ __Example #1__
 
 In this example we can see that by using tokenize.SExprTokenizer() method, we are able to extract the tokens from stream of characters or numbers using stanford standard.
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/Documentation/StanfordTokenizer/example1.py"><strong>Click here to view source code</strong></a>
 
 __Example #2__
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/Documentation/StanfordTokenizer/example2.py"><strong>Click here to view source code</strong></a>
 
 </div>
