@@ -32,7 +32,7 @@ An English stopwords list typically includes common words that carry little sema
 
 #### To check the list of stopwords you can type the following commands in the python shell.
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/RemovingStopWords/example1.py"><strong>Click here to view source code</strong></a>
 
 __Note__: You can even modify the list by adding words of your choice in the English .txt. file in the stopwords directory. 
 
@@ -40,13 +40,13 @@ __Note__: You can even modify the list by adding words of your choice in the Eng
 
 The following program removes stop words from a piece of text:
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/RemovingStopWords/example2.py"><strong>Click here to view source code</strong></a>
 
 The provided Python code demonstrates stopword removal using the Natural Language Toolkit (NLTK) library. In the first step, the sample sentence, which reads “This is a sample sentence, showing off the stop words filtration,” is tokenized into words using the word_tokenize function. The code then filters out stopwords by converting each word to lowercase and checking its presence in the set of English stopwords obtained from NLTK. The resulting filtered_sentence is printed, showcasing both lowercased and original versions, providing a cleaned version of the sentence with common English stopwords removed.
 
 ### Removing stop words with SpaCy
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/RemovingStopWords/example3.py"><strong>Click here to view source code</strong></a>
 
 The provided Python code utilizes the spaCy library for natural language processing to remove stopwords from a sample text. Initially, the spaCy English model is loaded, and the sample text, “There is a pen on the table,” is processed using spaCy. Stopwords are then filtered out from the processed tokens, and the resulting non-stopword tokens are joined to create a clean version of the text.
 
@@ -54,13 +54,13 @@ The provided Python code utilizes the spaCy library for natural language process
 
 ### Removing stop words with Genism
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/RemovingStopWords/example4.py"><strong>Click here to view source code</strong></a>
 
 The provided Python code utilizes Gensim’s remove_stopwords function to preprocess a sample text. In this specific example, the original text is “The majestic mountains provide a breathtaking view.” The remove_stopwords function efficiently eliminates common English stopwords, resulting in a filtered version of the text, which is then printed alongside the original text.
 
 ### Removing stop words with SkLearn
 
-<a href=""><strong>Click here to view source code</strong></a>
+<a href="https://github.com/NhanPhamThanh-IT/NLTK-Guide/blob/main/RemovingStopWords/example5.py"><strong>Click here to view source code</strong></a>
 
 The provided Python code combines scikit-learn and NLTK for stopword removal and text processing. First, the sample text, “The quick brown fox jumps over the lazy dog,” is tokenized into words using NLTK’s word_tokenize function. Subsequently, common English stopwords are removed by iterating through the tokenized words and checking their absence in the NLTK stopwords set. The final step involves joining the non-stopword tokens to create a clean version of the text. This approach integrates scikit-learn’s CountVectorizer could be utilized for further text analysis, such as creating a bag-of-words representation.
 
